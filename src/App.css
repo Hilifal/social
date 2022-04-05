@@ -1,0 +1,35 @@
+.header img {
+  width: 100px;
+  height: 140px;
+}
+.app-wrapper{
+  display: grid;
+  grid-template-areas:
+          "header header"
+          "nav section";
+  grid-template-rows: 140px 1fr;
+  grid-template-columns: 3fr 8fr;
+}
+.header{
+  grid-area: header;
+  background-color: #1A9BC5;
+}
+.nav{
+  grid-area: nav;
+  background-color: #1EF890;
+
+}
+.section{
+  grid-area: section;
+  background-color: #1AD9B4;
+
+}
+ul{
+  list-style-type: none;
+
+}
+.nav a{
+  text-decoration: none;
+  font-size: 26px;
+  color: #761AD9;
+}
