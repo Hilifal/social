@@ -1,0 +1,8 @@
+.section img {
+    width: 1800px;
+}
+.section{
+    grid-area: section;
+    background-color: #1AD9B4;
+
+}
